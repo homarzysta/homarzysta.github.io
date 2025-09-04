@@ -83,16 +83,15 @@ main section.project div.buttons button {
 
 main section.project div.buttons button:hover {
     background-color: black;
+    a {
+        color: yellow;
+    }
 }
 
 main section.project div.buttons button a {
     text-decoration: none;
     color: black;
     font-size: 32px;
-}
-
-main section.project div.buttons button a:hover {
-    color: yellow;
 }
 
 footer {
