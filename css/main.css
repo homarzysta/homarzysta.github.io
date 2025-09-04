@@ -1,0 +1,101 @@
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: yellow;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+main section.project {
+    display: block;
+    margin: 5px auto;
+    width: 50%;
+    background-color: yellow;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    outline: 2px solid yellow;
+    outline-offset: 3px;
+}
+
+main section.project:hover {
+    outline: 3px solid yellow;
+    outline-offset: 2px;
+}
+
+main section.project img {
+    width: 60%;
+    outline: 2px solid black;
+    outline-offset: 1px;
+}
+
+main section.project div.buttons {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+main section.project div.buttons button {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid black;
+    outline: none;
+    box-shadow: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+main section.project div.buttons button:hover {
+    background-color: black;
+}
+
+main section.project div.buttons button a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+
+main section.project div.buttons button a:hover {
+    color: yellow;
+}
+
+footer {
+    color: yellow;
+    text-align: center;
+}
